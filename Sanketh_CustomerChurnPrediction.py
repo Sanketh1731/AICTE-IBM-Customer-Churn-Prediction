@@ -276,7 +276,7 @@ def run_streamlit_app():
         with r1c2:
             st.subheader("Churn Distribution by Contract Type")
             contract_stats = filtered_df.groupby('Contract', observed=False)['Churn_Numeric'].mean().reset_index()
-            contract_stats['Churn_Rate'] = contract_stats['mean'] * 100
+            contract_stats['Churn_Rate'] = contract_stats['Churn_Numeric'] * 100
 
             fig2, ax2 = plt.subplots(figsize=(6, 3.8))
             colors = ['#ef4444', '#f59e0b', '#10b981']
@@ -331,7 +331,7 @@ def run_streamlit_app():
         with col2:
             st.subheader("Payment Method Impact")
             pay_stats = filtered_df.groupby('PaymentMethod')['Churn_Numeric'].mean().reset_index()
-            pay_stats['Churn_Rate'] = pay_stats['mean'] * 100
+            pay_stats['Churn_Rate'] = pay_stats['Churn_Numeric'] * 100
             pay_stats = pay_stats.sort_values(by='Churn_Rate', ascending=False)
 
             fig2, ax2 = plt.subplots(figsize=(6, 4))
