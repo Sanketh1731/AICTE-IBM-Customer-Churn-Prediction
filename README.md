@@ -104,7 +104,7 @@ This repository contains all mandatory files required for the **AICTE | IBM Skil
 | **2. Requirements File** | `requirements.txt` | Complete list of Python libraries and dependencies | ✅ Complete |
 | **3. Project Report** | `Sanketh_ProjectReport.docx` | Comprehensive documentation in Microsoft Word format with embedded figures | ✅ Complete |
 | **4. README File** | `README.md` | Full repository documentation with dataset link and instructions | ✅ Complete |
-| **5. GitHub Repository Link** | *Repository URL* | Public GitHub link submitted in the Google Form | ✅ Ready |
+| **5. GitHub Repository Link** | `https://github.com/Sanketh1731/AICTE-IBM-Customer-Churn-Prediction` | Public GitHub link submitted in the Google Form | ✅ Ready |
 
 ---
 
