@@ -68,8 +68,8 @@ Three supervised machine learning classifiers were trained and rigorously evalua
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/Sanketh1731/AICTE-IBM-Customer-Churn-Prediction.git
+cd AICTE-IBM-Customer-Churn-Prediction
 ```
 
 ### 2. Install Dependencies
